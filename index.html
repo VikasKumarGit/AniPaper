@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AniPaper - Home</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="common/headerCss.css">
+        <link rel="stylesheet" href="common/footerCss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="favicon/A.png"/>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('#header').load('common/header.html');
+            });
+
+            $(function(){
+                $('#footer').load('common/footer.html');
+            });
+        </script>
+    </head>
+    <body>
+
+        <!-- Top Navigation Bar -->
+        <header>
+            <div id="header"></div>
+        </header>
+
+        <!-- Video Container and Site Tagline -->
+        <div class="VideoContainer">
+            <div class="video-desktop">
+                <div class="bvideo">
+                    <video src="videos/desktop fallingStar.mp4" autoplay loop muted plays-inline class="video"></video>
+                </div>
+                <!-- <div class="tagline-wrapper"> -->
+                    <div class="video-mobile">
+                        <video src="videos/fallingStarPotrate.mp4" autoplay loop muted plays-inline class="video"></video>
+                    </div>
+                    <div class="tag-line">
+                        <h1>AniPaper</h1>
+                        <p>Personalise your smart device with AniPaper.</p>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <!-- Some Introduction and Services about AniPaper -->
+        <div class="introduction">
+            <div class="introduction-wrapper">
+                <div class="introduction-title">
+                    <h1>Personalise your smart device with <span>AniPaper</span></h1>
+                </div>
+                <div class="services">
+                    <div>
+                        <img src="icons/smart-tv.png" width="100px" height="100px">
+                        <p>
+                            High Quality video with upto 4K resolution.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="icons/responsive.png" width="100px" height="100px">
+                        <p>
+                            For Multiple Device with different Screen Sizes. 
+                        </p>
+                    </div>
+                    <div>
+                        <img src="icons/infinite.png" width="100px" height="100px">
+                        <p>
+                            Perfect Loop ideos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- App Introduction and Additional Information-->
+        <div class="app-wrapper"></div>
+
+        <!-- Footer Wrapper -->
+        <footer>
+            <div id="footer"></div>
+        </footer>
+    </body>
+</html>
