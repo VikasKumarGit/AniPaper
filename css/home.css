@@ -8,4 +8,7 @@
     height: 600px;
     background-color: blueviolet;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
