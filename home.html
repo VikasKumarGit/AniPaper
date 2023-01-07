@@ -4,12 +4,15 @@
         <title>AniPaper: Home</title>
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="common/headerCss.css">
+        <link rel="stylesheet" href="common/footerCss.css">
 
         <link rel="icon" type="image/png" href="favicon/A.png"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <script>
             $(function(){
                 $('#header').load('common/header.html');
@@ -22,10 +25,30 @@
     </head>
     <body>
         <div class="mainBannerWrapper">
-        <img src="https://vikaskumargit.github.io/AniPaper/images/AniPaper.png">
+        <img id="wrapperImage" src="https://vikaskumargit.github.io/AniPaper/images/AniPaper.png">
             <div class="searchBox">
-                <input type="text" placeholder="type and Hit Enter"><input type="button" value="Enter">
+                <input type="text" placeholder="type and Hit Enter" class="iBox"><i class="fa fa-search"></i>
+            </div>
+            <div class="info">
+                <p>Text and content</p>
             </div>
         </div>
+        <header id="header"></header>
+        <div class="recommendedCategories">
+            <div class="categoriesHead">categories</div>
+            <div class="categoriesHome">categories Place Here</div>
+        </div>
+        <div class="random">
+            <div class="randomContainer">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
     </body>
 </html>
