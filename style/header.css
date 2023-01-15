@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerWrapper{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerHead{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuItems{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+.menuItems a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:480px){
+    .innerHead{
+        width: 98%;
+
+    }
+    .menuItems{
+        font-size: smaller;
+    }
+}
